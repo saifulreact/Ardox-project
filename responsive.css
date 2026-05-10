@@ -1,0 +1,11 @@
+@media screen and (max-width: 320px){
+ .img_col img{
+    display: none;
+ }
+.header_text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+    
+}

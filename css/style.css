@@ -9,8 +9,7 @@
     box-sizing: border-box;
 }
 
-ol,
-li {
+ol,li {
     list-style: none;
 }
 
@@ -43,9 +42,33 @@ a {
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     position: relative;
-    transition: all linear .3s;
+    transition: all linear .1s;
+    padding: 10px 11px 10px 11px;
+    border-radius: 18px;
+    
 }
+.btn a::after{
+    content: "";
+    width: 22px;
+    height: 2px;
+    background: #ffffff;
+    position: absolute;
+    top: 39px;
+    left: 50%;
+    transform: translateX(-50%);
+   
 
+
+
+}
+.btn a:hover{
+    padding: 10px 11px 10px 11px;
+    background: #FFFFFF;
+    border-radius: 18px;
+    color: #000000;
+    
+}
+/* 
 .btn a:hover {
     width: 81px;
     height: 38px;
@@ -55,9 +78,9 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 18px;
-}
+} */
 
-.btn a::after {
+/* .btn a::after {
     content: "";
     width: 22px;
     height: 2px;
@@ -67,7 +90,7 @@ a {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-}
+} */
 
 
 
@@ -183,6 +206,7 @@ p::after {
 .google a {
     padding: 11px 28px;
     background: #ffffff;
+    border-radius: 10px;
 }
 
 
@@ -191,12 +215,19 @@ p::after {
     justify-content: space-between;
 }
 
-.botton_end_part {
+.botton_end_part a {
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 300;
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     margin: 63px 0 134px 0;
+
+}
+.botton_end_part span{
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
 
 }
 
